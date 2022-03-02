@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  /* box-sizing: border-box !important;
+  padding: 0 !important; */
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px;
+  color: #004cff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-search {
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  text-indent: 10px;
+  border: none;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
-.App-link {
-  color: #61dafb;
+.input-search:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  width: 40%;
+  padding: 5px !important;
+  border: none;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  /* background-color: #004cff !important; */
+  opacity: 0.8;
+  transition: ease 0.3s;
+}
+.button:hover {
+  opacity: 1;
+}
+
+.card {
+  background-color: #f8f9fa;
+  /* width: 18rem; */
+  border-radius: 15px;
+  margin: 6px;
+}
+
+.card-title {
+  color: #004cff;
+  font-size: 16px;
+  font-weight: bold !important;
+}
+
+.card-text {
+  font-size: 14px;
 }
